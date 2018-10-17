@@ -1,0 +1,115 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>UNEJ</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+	<div id="home">
+		<aside>
+			<img id="segitiga" src="element/header.png">
+			<img id="logo" src="element/logo.png">
+			<p>Struktur Organisasi<br>Universitas Jember</p>
+		</aside><section id="nav">
+					<p>
+						<a href="#home">Home</a> <a href="#struktur">Struktur</a> <a href="#form">Kritik&Saran</a> <a href="#fakultas">Fakultas</a> <a href="#footer">Tentang</a>
+					</p>
+				</section>
+		<section id="selamat">
+			<p id="pra">Selamat Datang!</p>
+			<p id="prolog">
+				Website ini menyediakan informasi mengenai struktur<br>organisasi Universitas Jember. Selain itu, anda juga dapat<br>menyalurkan kritik dan saran yang membangun bagi<br>Universitas Jember.
+			</p>
+			<section id="panah">
+				<a href="#home"><img style="width: 70px;" src="element/panah.png"></a>
+			</section>
+		</section>
+	</div>
+	<section id="struktur">
+		<p id="judulstruktur">Struktur Organisasi<br>Universitas Jember</p>
+		<a href="lektor.html"><img id="rektor" src="element/rektor.jpg" width="100px"></a>
+		<p style="text-align: center;font-family: arial;font-size: 20px; margin-top: 10px; margin-bottom: 10px;">Rektor</p>
+		<img id= "bagan" src="element/bagan.png" width="570px">
+		<img id="wr1" src="element/wr1.jpg" width="100px">
+		<img id="wr2" src="element/wr2.jpg" width="100px">
+		<img id="wr3" src="element/wr3.jpg" width="100px">
+		<div class="rektor">
+			<p id="jabatan">WakilRektor1 WakilRektor2 WakilRektor3</p>
+		</div>
+	</section>
+	<section id="form">
+		<p id="judulform">Kritik dan Saran</p>
+		<input type="radio" name="jabatan"> dosen
+		<input type="radio" name="jabatan"> mahasiswa
+		<input type="radio" name="jabatan"> staf
+		<input type="radio" name="jabatan"> umum <br>
+		<p>Nama Lengkap</p>
+		<input id="text" type="text" name="nama" placeholder="Masukkan Nama Lengkap"> <br>
+		<p>Fakultas</p>
+		<input id="text" type="text" name="fakultas" placeholder="Masukkan fakultas"> <br>
+		<p>E-mail</p>
+		<input id="text" type="text" name="email" placeholder="Masukkan email"> <br>
+		<p>Kritik & Saran</p>
+		<textarea style="width: 500px; height: 150px;"></textarea><br><br>
+		<input style="margin-bottom: 20px;" type="button" name="kirim" value="kirim">
+	</section>
+	<section id="fakultas">
+		<p style="font-size: 40px; font-family: arial; color: white; text-align: center; margin-top: 0px; padding-top: 40px; padding-bottom: 30px;">Fakultas</p>
+		<input id="kotakcari" type="text" name="search" placeholder="Cari">
+		<input id="tombolcari" style="margin-bottom: 30px;" type="button" name="search" value="Cari">
+		<div class="fak">
+			<div id="FT"><p>Fakultas Teknik</p></div>
+			<div id="FEB"><p>Fakultas<br>Ekonomi dan Bisnis</p></div>
+			<div id="FH"><p>Fakultas Hukum</p></div>
+			<div id="FP"><p>Fakultas Pertanian</p></div>
+			<div id="FTP"><p>Fakultas Teknik Pertanian</p></div>
+			<div id="FKG"><p>Fakultas Kedokteran Gigi</p></div>
+			<div id="FK"><p>Fakultas Kedokteran</p></div>
+			<a href="ilkom.html"><div id="ILKOM"><p>Fakultas Ilmu Komputer</p></div></a>
+		</div>
+	</section>
+	<footer id="footer">
+		<div id="logo2"><img style="width: 80px;" src="element/logo.png"></div>
+		<div id="univjem">
+			<p style="margin: 0px;">Universitas<br>Jember</p>
+			<img style="width: 100px;" src="element/ijo.png">
+		</div><br><br><br><br><br>
+		<div style="float: left; margin-top: 30px;" id="icon">
+			<img style="padding-bottom: 42px;" src="element/world.png"><br>
+			<img style="margin-bottom: 12px;" src="element/phone.png"><br>
+			<img src="element/mail.png"><br>-
+		</div>
+		<div style="margin-left: 40px; margin-top: 30px;" id="tentang">
+			<p style="margin-top: 0px;">Jalan Kalimantan No. 37,<br>Kampus Tegalboto, Jember, Jawa Timur,<br>68121, Indonesia</p>
+			<p>(0331)330-224</p>
+			<p>humas@unej.ac.id</p>
+		</div>
+	</footer>
+</body>
+</html>	

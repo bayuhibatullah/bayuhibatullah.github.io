@@ -1,0 +1,298 @@
+body{
+	margin: 0px;
+}
+#home{
+	background-image: url('element/background_home.jpg');
+}
+aside{
+	float: left;
+	height: 220px;
+	width: 460px;
+}
+aside p{
+	font-family: roboto;
+	font-style: inherit;
+	font-size: 20px;
+	color: white;
+	z-index: 1;
+	position: relative;
+	left: 150px;
+	top: -260px;
+}
+#nav{
+	float: right;
+	height: 220px;
+	width: 799px;
+	font-family: arial;
+	color: white;
+}
+#selamat{
+	height: 357.5px;
+	padding-top: 20px;
+	clear: both;
+	color: white;
+}
+#logo{
+	z-index: 1;
+	position: relative;
+	top: -180px;
+	left: 50px;
+	width: 75px;
+}
+#nav p{
+	font-family: arial;
+	font-size: 18px;
+	position: relative;
+	right: -70px;
+	top: 90px;
+	word-spacing: 70px;
+}
+#pra{
+	font-family: arial;
+	font-size: 60px;
+	text-align: center;
+}
+#prolog{
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	margin-bottom: 0px;
+}
+#segitiga{
+	position: relative;
+	top: -2px;
+	left: -2px;
+}
+#struktur{
+	background-image: url('element/background_struktur.jpg');
+	background-position: center;
+}
+#bagan, #rektor{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wr1{
+	margin-left: 130px;
+}
+#wr1, #wr2, #wr3{
+	display: inline-block;
+	padding-left: 175px;
+}
+#judulstruktur{
+	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	color: #1F1F99;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	text-decoration: inherit;
+}
+#form{
+	padding-left: 100px;
+	background-image: url('element/background_form.jpg');
+	color: white;
+	font-family: arial;
+}
+#judulform{
+	padding-left: -500px;
+	text-align: center;
+	font-family: arial;
+	font-size: 40px;
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#text{
+	width: 500px;
+}
+#jabatan{
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 160px;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
+#fakultas{
+	background-image: url('element/background_fakultas.jpg');
+}
+.fak{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 1000px;
+	height: 300px;
+}
+.fak div{
+	display: table-cell;
+	margin: 20px;
+	padding: 0px;
+	float: left;
+	border: 1px solid black;
+	background-color: white;
+	width: 200px;
+	height: 85px;
+	
+}
+.fak p{
+	padding-top: 20px;
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+	line-height: 14px;
+}
+#kotakcari{
+	margin-left: 130px;
+	height: 25px;
+	width: 200px;
+	border: 2px solid #3D80CC;
+	padding-left: 5px;
+	margin-right: 0px;
+}
+#tombolcari{
+	width: 70px;
+	height: 25px;
+	border: 2px solid #3D80CC;
+	background-color: #3D80CC;
+	color: white;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+footer{
+	background-color: #1F1F99;
+	height: 300px;
+	padding-left: 60px;
+	padding-top: 25px;
+}
+#logo2, #univjem{
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+#univjem{
+	width: 100px;
+	height: 60px;
+	font-family: arial;
+	font-size: 20px;
+	color: #EAE255;	
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 
+}
+#icon img{
+	width: 22px;
+}
+#tentang{
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+}
+#jabatan{
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 160px;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
+#rektor2{
+	position: relative;
+	top:305px;
+	right: 200px;
+}
+#nama1{
+	position: relative;
+	left: 20px;
+	top: 100px;
+	font-size: 30px;
+	font-family: arial;
+	color: #000F99;
+}
+#parag1{
+	position: relative;
+	left: 483px;
+	top: 79px;
+	font-size: 20px;
+	font-family: arial;
+}
+#parag2{
+	position: relative;
+	left: 700px;
+	top: -77px;
+	font-size: 20px;
+	font-family: arial;
+}
+#atas{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+	font-size: 40px;
+	font-family: arial;
+	color: #1F1F99;
+}
+#dekan{
+	position: relative;
+	left: 572px;
+	top: 10px;
+	font-family: arial;
+}
+#wd1{
+	position: relative;
+	left: 295px;
+	bottom: 10px;
+}
+#wd2{
+	position: relative;
+	left: 440px;
+	bottom: 10px;
+}
+#wd3{
+	position: relative;
+	left: 585px;
+	bottom: 10px;
+}
+#jabatan1{
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 160px;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#fotodekan{
+	position: relative;
+	top: 330px;
+	right: 170px;
+	width: 180px;
+}
+#nama2{
+	position: relative;
+	left: 20px;
+	top: 100px;
+	font-size: 30px;
+	font-family: arial;
+	color: #000F99;
+}
+#panah{
+	position: fixed;
+	margin-left: 1170px;
+	padding-top: 10px;
+	width: 120px;
+	height: 120px;
+}
