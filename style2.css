@@ -1,0 +1,16 @@
+@media screen and (max-width: 780px){
+	#fakultas{
+		height: 870px;
+	}
+	.fak{
+		height: 340px;
+	}
+	.fak div{
+		float: none;
+		width: 70%;
+		margin-left: 15%;
+	}
+	#kotakcari{
+		margin-left: 18%;
+	}
+}

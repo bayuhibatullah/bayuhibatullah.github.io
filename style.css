@@ -3,49 +3,51 @@ body{
 }
 #home{
 	background-image: url('element/background_home.jpg');
+	background: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-aside{
+#header{
+	height: 20%;
+}
+#pojok{
 	float: left;
-	height: 220px;
-	width: 460px;
+	width: 25%;
+	height: 100%;
 }
-aside p{
+#pojok p{
 	font-family: roboto;
-	font-style: inherit;
-	font-size: 20px;
+	position: relative;
+	bottom: 200px;
+	left: 90px;
+	font-size: 100%;
 	color: white;
 	z-index: 1;
-	position: relative;
-	left: 150px;
-	top: -260px;
 }
-#nav{
-	float: right;
-	height: 220px;
-	width: 799px;
+#nav1, #nav2, #nav3, #nav4, #nav5{
+	line-height: 125px;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	height: 100%;
+	width: 14.78%;
 	font-family: arial;
+	font-size: 20px;
 	color: white;
 }
 #selamat{
-	height: 357.5px;
+	height: 68%;
 	padding-top: 20px;
 	clear: both;
 	color: white;
 }
 #logo{
-	z-index: 1;
 	position: relative;
-	top: -180px;
-	left: 50px;
-	width: 75px;
-}
-#nav p{
-	font-family: arial;
-	font-size: 18px;
-	position: relative;
-	right: -70px;
-	top: 90px;
-	word-spacing: 70px;
+	bottom: 135px;
+	left: 22px;
+	z-index: 2;
+	width: 19%;
+
 }
 #pra{
 	font-family: arial;
@@ -60,9 +62,8 @@ aside p{
 	margin-bottom: 0px;
 }
 #segitiga{
-	position: relative;
-	top: -2px;
-	left: -2px;
+	width: 100%;
+	z-index: 0;
 }
 #struktur{
 	background-image: url('element/background_struktur.jpg');
@@ -99,7 +100,6 @@ a:visited{
 }
 a:hover{
 	color: black;
-	text-decoration: inherit;
 }
 #form{
 	padding-left: 100px;
@@ -129,24 +129,22 @@ a:hover{
 }
 #fakultas{
 	background-image: url('element/background_fakultas.jpg');
+	background: cover;
+	background-position: center;
 }
 .fak{
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 1000px;
-	height: 300px;
+	width: auto;
+	height: 380px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .fak div{
-	display: table-cell;
-	margin: 20px;
-	padding: 0px;
+	margin: 2%;
 	float: left;
 	border: 1px solid black;
 	background-color: white;
-	width: 200px;
-	height: 85px;
+	width: 18%;
+	height: 20%;
 	
 }
 .fak p{
@@ -157,7 +155,7 @@ a:hover{
 	line-height: 14px;
 }
 #kotakcari{
-	margin-left: 130px;
+	margin-left: 10%;
 	height: 25px;
 	width: 200px;
 	border: 2px solid #3D80CC;
@@ -292,7 +290,6 @@ footer{
 #panah{
 	position: fixed;
 	margin-left: 1170px;
-	padding-top: 10px;
-	width: 120px;
-	height: 120px;
+	padding-top: 10%;
+	width: 10px;
 }
