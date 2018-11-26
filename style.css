@@ -128,6 +128,10 @@ a:hover{
 #text{
 	width: 500px;
 }
+#kritik{
+	width: 500px;
+	height: 150px;
+}
 #jabatan{
 	font-family: arial;
 	font-size: 20px;
@@ -300,4 +304,7 @@ footer{
 	bottom: 325px;
 	font-family: roboto;
 	font-size: 20px;
+}
+.strukturmini{
+	display: none;
 }
