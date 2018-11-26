@@ -75,6 +75,39 @@
 			<p id="jabatan">WakilRektor1 WakilRektor2 WakilRektor3</p>
 		</div>
 	</section>
+	<div class="strukturmini">
+		<div id="judulstrukturmini">Struktur Organisasi<br>Universitas Jember</div>
+		<table width="100%">
+			<tr>
+				<td style="width: 30%"><a href="lektor.html"><img src="element/rektor.jpg"></a></td>
+				<td style="width: 79%">
+					<p id="jab"><b>Rektor</b></p>
+					<p id="name">Drs. Moh Hasan,M.Sc,Ph.D</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 30%"><a href="wr1.html"><img src="element/wr1.jpg"></a></td>
+				<td style="width: 79%">
+					<p id="jab"><b>Wakil Rektor 1</b></p>
+					<p id="name">Drs. Zulfikar,Ph.D</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 30%"><a href="wr2.html"><img src="element/wr2.jpg"></a></td>
+				<td style="width: 79%">
+					<p id="jab"><b>Wakil Rektor 2</b></p>
+					<p id="name">Drs. Wachju Subchan, MS., Ph.D</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 30%"><a href="wr3.html"><img src="element/wr3.jpg"></a></td>
+				<td style="width: 79%">
+					<p id="jab"><b>Wakil Rektor 3</b></p>
+					<p id="name">Prof. Dr. M. Sulton, M.Pd.</p>
+				</td>
+			</tr>
+		</table>
+	</div>
 	<section id="form">
 		<p id="judulform">Kritik dan Saran</p>
 		<form id="form1" name="biodata" method="post" action="index.html">
@@ -85,7 +118,7 @@
 			<p>Nama Lengkap</p>
 			<input id="text" type="text" name="nama" placeholder="Masukkan Nama Lengkap"> <br>
 			<p>Fakultas</p>
-			<select name="fakultas">
+			<select id="text" name="fakultas">
 			<option> 
 			<option> Fakultas Ilmu Komputer
 			<option> Fakultas Hukum
@@ -102,7 +135,7 @@
 			<p>E-mail</p>
 			<input id="text" type="text" name="email" placeholder="Masukkan email"> <br>
 			<p>Kritik & Saran</p>
-			<textarea name="kritik" style="width: 500px; height: 150px;"></textarea><br><br>
+			<textarea id="kritik" name="kritik"></textarea><br><br>
 			<input style="margin-bottom: 20px;" type="reset" name="kirim" id="klik_submit" value="kirim">
 		</form>
 		<table id="tabelinput" border="1" style="color: white;">
