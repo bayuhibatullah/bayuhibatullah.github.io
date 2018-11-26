@@ -58,6 +58,8 @@ body{
 	font-family: arial;
 	font-size: 60px;
 	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 #prolog{
 	font-family: arial;
@@ -65,6 +67,8 @@ body{
 	text-align: center;
 	color: white;
 	margin-bottom: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 #segitiga{
 	width: 100%;
