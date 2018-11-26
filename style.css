@@ -1,6 +1,9 @@
 body{
 	margin: 0px;
 }
+.topnav {
+	display: none;
+}
 #home{
 	background-image: url('element/background_home.jpg');
 	background: cover;
