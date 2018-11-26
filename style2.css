@@ -1,4 +1,4 @@
-@media screen and (max-width: 780px){
+@media screen and (max-width: 680px){
 	#header{
 		display: none;
 	}
@@ -68,16 +68,73 @@
 	  font-family: roboto;
 	  display: block;
 	}
-}
-#selamat{
+	#selamat{
 	padding-top: 40px;
 	padding-bottom: 20px;
 	height: 450px;
-}
-#pra{
-	margin-top: 100px;
-	font-size: 40px;
-}
-#prolog{
-	font-size: 13px;
+	}
+	#pra{
+		margin-top: 100px;
+		font-size: 40px;
+	}
+	#prolog{
+		font-size: 13px;
+	}
+	#struktur{
+		display: none;
+	}
+	.strukturmini{
+		background-image: url('element/background_struktur.jpg');
+		background: cover;
+		display: block;
+		width: auto;
+		height: 600px;
+	}
+	#judulstrukturmini{
+		font-family: arial;
+		color: #1F1F99;
+		font-size: 28px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	
+	.strukturmini img{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		height: 100px;
+		padding-left: 22%;
+		padding-bottom: 10px;
+	}
+	.strukturmini tr{
+		width: auto;
+	}
+	.strukturmini p{
+		padding-left: 10px;
+	}
+	#jab{
+		font-family: arial;
+		font-size: 15px;
+		color: #1F1F99;
+		margin-bottom: 3px;
+	}
+	#name{
+		font-family: arial;
+		margin-top: 0px;
+	}
+	#form{
+		width: auto;
+		padding-left: 10%;
+	}
+	#judulform{
+		text-align: center;
+		font-family: arial;
+		font-size: 30px;
+	}
+	#text{
+		width: 80%;
+	}
+	#kritik{
+		width: 80%;
+	}
 }
