@@ -6,9 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UNEJ</title>
 	<link href="element/logo.png" rel="shortcut icon">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div id="home">
+		<div id="home">
 		<div id="header">
 			<section id="pojok">
 				<img id="segitiga" src="element/header.png">
@@ -30,6 +32,26 @@
 			<section id="nav5">
 				<a href="#footer">Tentang</a>
 			</section>
+		</div>
+		<!-- Navigasi Mobile -->
+		<div class="topnav">
+		  <div class="active">
+		  	<img style="float: left; width: 50px; margin: 0px padding: 0px;" src="element/logo.png">
+		  	<div style="float: left;" class="menu">
+		  		Struktur Organisasi<br>Universitas Jember
+		  	</div>
+		  </div>
+		  <!-- Navigation links (hidden by default) -->
+		  <div id="myLinks">
+		    <a href="#struktur">Struktur</a>
+		    <a href="#form">Kritik & Saran</a>
+		    <a href="#fakultas">Fakultas</a>
+		    <a href="#footer">Tentang</a>
+		  </div>
+		  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
 		</div>
 		<section id="selamat">
 			<p id="pra">Selamat Datang!</p>
