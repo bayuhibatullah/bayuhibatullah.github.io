@@ -10,20 +10,21 @@ $("#klik_submit").click(function() {
 	if (x == "" || y == "" || z =="" || a == "" || b == "") {
 		alert("form tidak lengkap");
 	} else {
-		alert("Data anda berhasil terentry!");
-	var tabel = document.getElementById("tabelinput");
-	var row = tabel.insertRow(1);
-	var cell1 = row.insertCell(0);
-	var cell2 = row.insertCell(1);
-	var cell3 = row.insertCell(2);
-	var cell4 = row.insertCell(3);
-	var cell5 = row.insertCell(4);
+		var tabel = document.getElementById("tabelinput");
+		var row = tabel.insertRow(1);
+		var cell1 = row.insertCell(0);
+		var cell2 = row.insertCell(1);
+		var cell3 = row.insertCell(2);
+		var cell4 = row.insertCell(3);
+		var cell5 = row.insertCell(4);
 
-	cell1.innerHTML = x;
-	cell2.innerHTML = y;
-	cell3.innerHTML = z;
-	cell4.innerHTML = a;
-	cell5.innerHTML = b;
+		cell1.innerHTML = x;
+		cell2.innerHTML = y;
+		cell3.innerHTML = z;
+		cell4.innerHTML = a;
+		cell5.innerHTML = b;
+
+		alert("Data anda berhasil terentry!");
 	}
 });
 
