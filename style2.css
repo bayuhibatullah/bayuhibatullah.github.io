@@ -1,4 +1,4 @@
-@media screen and (max-width: 680px){
+@media screen and (max-width: 780px){
 	#header{
 		display: none;
 	}
@@ -89,6 +89,9 @@
 		display: block;
 		width: auto;
 		height: 600px;
+		padding-left: 5%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#judulstrukturmini{
 		font-family: arial;
@@ -103,7 +106,6 @@
 		margin: 0px 0px 0px 0px;
 		padding: 0px 0px 0px 0px;
 		height: 100px;
-		padding-left: 22%;
 		padding-bottom: 10px;
 	}
 	.strukturmini tr{
