@@ -283,6 +283,7 @@ footer{
 #panah{
 	position: fixed;
 	margin-left: 1170px;
+	margin-top: 110px;
 	width: 10px;
 }
 #fotodekan{
@@ -301,10 +302,13 @@ footer{
 #biokanan{
 	position: relative;
 	left: 770px;
-	bottom: 325px;
+	bottom: 342px;
 	font-family: roboto;
 	font-size: 20px;
 }
 .strukturmini{
 	display: none;
+}
+#tabelinput{
+	width: auto;
 }
